@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+
 @import "tailwindcss";
 
 @font-face {
@@ -91,7 +92,8 @@ body {
         @apply relative z-10 min-h-dvh w-full border border-transparent;
 
         h1 {
-            @apply md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-modern-negra;
+            @apply md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center;
+            font-family: "Modern Negra", sans-serif;
         }
 
         .left-leaf {
